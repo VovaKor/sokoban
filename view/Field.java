@@ -1,8 +1,8 @@
-package com.javarush.test.level34.lesson15.big01.view;
+package view;
 
-import com.javarush.test.level34.lesson15.big01.controller.EventListener;
-import com.javarush.test.level34.lesson15.big01.model.Direction;
-import com.javarush.test.level34.lesson15.big01.model.GameObject;
+import controller.EventListener;
+import model.Direction;
+import model.GameObject;
 
 import javax.swing.*;
 import java.awt.*;

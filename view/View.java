@@ -1,8 +1,8 @@
-package com.javarush.test.level34.lesson15.big01.view;
+package view;
 
-import com.javarush.test.level34.lesson15.big01.controller.Controller;
-import com.javarush.test.level34.lesson15.big01.controller.EventListener;
-import com.javarush.test.level34.lesson15.big01.model.GameObjects;
+import controller.Controller;
+import controller.EventListener;
+import model.GameObjects;
 
 import javax.swing.*;
 
@@ -18,7 +18,7 @@ public class View extends JFrame {
     }
     public void completed(int level){
         this.update();
-        JOptionPane.showMessageDialog(null,"вы прошли уроень "+ level);
+        JOptionPane.showMessageDialog(null,"вы прошли уровень "+ level);
         controller.startNextLevel();
     }
     public void setEventListener(EventListener eventListener)

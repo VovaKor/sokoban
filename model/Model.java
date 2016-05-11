@@ -1,6 +1,6 @@
-package com.javarush.test.level34.lesson15.big01.model;
+package model;
 
-import com.javarush.test.level34.lesson15.big01.controller.EventListener;
+import controller.EventListener;
 
 import java.nio.file.Paths;
 

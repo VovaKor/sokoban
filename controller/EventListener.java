@@ -1,6 +1,6 @@
-package com.javarush.test.level34.lesson15.big01.controller;
+package controller;
 
-import com.javarush.test.level34.lesson15.big01.model.Direction;
+import model.Direction;
 
 /**
  * Created by Вова on 26.03.2016.
